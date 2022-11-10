@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contuct Us</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        body{
+            margin: 0%;
+        }
+        .headre{
+            background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(About\ 1.jpg);
+            position: relative;
+            background-position: center;
+            /* text-align: center; */
+            width: 100%;
+            min-height: 50vh;
+            /* height: 50vh;    ye or iske uppar vali line dono lagbhag same h  */
+            background-size: cover ;
+            color: white;
+
+        }
+        .navbar{
+            display: flex;
+            margin-right: 5%;
+            margin-top: 0;
+            padding: 30px, 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img{
+            width: 10%;
+            margin-left: 3%;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            margin-left: 50px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-style: bold;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: rgb(255 94 0);
+            /* position: absolute; */
+            display: block;
+            /* right: 0; */
+            margin: auto;
+            bottom: -5px;
+            transition: 0.3s;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+            
+        }
+        .content{
+            /* border: 2px solid black;  */
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            transform: translateY(-50%);
+        }
+        .content h1{
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            /* margin-top: 80px; */
+        }
+
+
+
+                                                                       /* 2nd part  */
+
+
+
+        .contact{
+            border: 2px solid red;
+            padding: 10px;
+        }                     
+        .saman{
+            border: 2px soild green;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px;
+            padding-left: 50px;
+        }                                          
+        /* .contact{
+            border: 2px solid red;
+            margin-top: 5px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* justify-content: space-between; */
+        }
+        .map{
+            width: 80%;
+            display: contents;
+            border: 2px solid green;
+        } */
+        /* .saman{
+            border: 2px solid green;
+            width: 100%;
+            justify-content: space-between;
+        } */
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+                                                                        <!-- 1st part -->
+
+
+
+    <section class="headre">
+        <div class="banner">
+            
+            <div class="navbar">
+                <img src="logo.png" alt="">
+                
+                <ul>
+                    <li><a href="collage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Cources.html">Cources</a></li>
+                    <li><a href="#" >Blog</a></li>
+                    <li><a href="#" >Contact</a></li> 
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Contuct Us</h1>
+            </div>
+        </div>  
+    </section>
+    <section class="contact">
+
+        <div class="saman">
+
+            <div class="tetx">
+
+                <h1>Phone No:</h1>
+                <p>9876543210</p>
+                <h1>Mail ID:</h1>
+                <p>YeMailIDhe@gmail.com</p>
+                <h1>Eak Or Chiz:</h1>
+                <p>samajh nhi aa rha kya likhu</p>
+             </div>
+
+            <div class="map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.9438043835416!2d77.37469501444632!3d23. 24513191380756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.    1!3m3!1m2!1s0x397c5d2b692d3a2b%3A0xfd690e7281fa1a3a!2sRaja%20Bhoj%20Island!5e0!3m2!1sen!2sin!4v1663367565899!5m2!1sen!2sin" width="600"     height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+          alert("Please Aviod Spelling Mistakes !");
+        }
+        </script>
+
+</body>
+</html>

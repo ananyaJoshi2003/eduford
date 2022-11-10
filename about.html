@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .headre{
+            background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(About\ 1.jpg);
+            position: relative;
+            background-position: center;
+            /* text-align: center; */
+            width: 100%;
+            min-height: 50vh;
+            /* height: 50vh;    ye or iske uppar vali line dono lagbhag same h  */
+            background-size: cover ;
+            color: white;
+
+        }
+        .navbar{
+            display: flex;
+            margin-right: 5%;
+            margin-top: 0;
+            padding: 30px, 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img{
+            width: 10%;
+            margin-left: 3%;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            margin-left: 50px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-style: bold;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: rgb(255 94 0);
+            /* position: absolute; */
+            display: block;
+            /* right: 0; */
+            margin: auto;
+            bottom: -5px;
+            transition: 0.3s;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+            
+        }
+        .content{
+            /* border: 2px solid black;  */
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            transform: translateY(-50%);
+        }
+        .content h1{
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            /* margin-top: 80px; */
+        }
+
+
+
+                                                               /* <!-- 2nd part --> */
+
+
+
+        .row{
+            /* border: 2px solid red; */
+            width: 90%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            /* margin-top: 5%; */
+        }
+        .col1{
+            /* flex-basis: 48%; */
+            padding: 30px 2px ;
+            margin-right: 100px;
+            /* border: 2px solid red; */
+            margin-right: 60px;
+            margin-top: 30px;
+            width: 50%;
+            }
+            .col2{
+                /* border: 2px solid red; */
+                background: url(about2.jpg);
+                width: 50%;
+                background-size: cover;
+                /* left: 10000px; */
+            }
+        /* .col2 img{
+            margin-top: 80px; 
+            width: 50%;   
+            margin-left: 200px;
+        } */
+        .col1 h1{
+            font-size: 45px;
+        }
+
+
+
+                                                           /* 3rd part */
+
+
+
+        .footer{
+            background-color: rgb(187, 186, 186);
+            color: black;
+            text-align: center;
+            margin-top: 50px;
+            width: 100%;
+            height: 200px;
+            margin: auto;
+            margin-top: 50px;
+            padding-top: 20px;
+        }
+        .footer p{
+            width: 60%;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="headre">
+        <div class="banner">
+            
+            <div class="navbar">
+                <img src="logo.png" alt="">
+                
+                <ul>
+                    <li><a href="collage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Cources.html">Cources</a></li>
+                    <li><a href="#" >Blog</a></li>
+                    <li><a href="#" >Contact</a></li> 
+                </ul>
+            </div>
+            <div class="content">
+                <h1>About</h1>
+            </div>
+        </div>  
+    </section>
+
+
+
+                                                                  <!-- 2nd part -->
+
+
+
+    <section class="middle">
+
+        <div class="row">
+
+            <div class="col1">
+                <h1>Hum Yha ki Sbse Badi University H!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis perferendis neque ipsa atque alias enim? Vero, ex consequuntur et libero commodi adipisci. Iure, aperiam a! Deleniti minima reprehenderit, accusamus modi praesentium expedita itaque qui magnam esse eum ratione unde ipsum explicabo molestias quibusdam distinctio possimus ea id ullam est.</p>
+            </div>
+            <div class="col2">
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+                                                         <!-- 3rd part -->
+
+
+                                                         
+    <section class="footer">
+        <h1>About Us</h1>
+        <p> <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sint provident, minus et assumenda id dolore culpa labore inventore laudantium fugiat velit aut illum modi nihil quaerat vitae tenetur ad! <br><br><br>Ye footer h</p>
+    </section>
+
+</body>
+</html>
