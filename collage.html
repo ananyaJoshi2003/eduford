@@ -112,15 +112,14 @@
             width: 100%;
             border: rgb(255 94 0);
         }
-        @media(max-width: 700px)
-        {
+        @media screen and (max-width: 767px) {
             .headre{
                 /* border: 5px solid red; */
                 width: 200%;
                 height: 200vh;
             }
             .navbar{
-                border: 2px solid red;
+                /* border: 2px solid red; */
                 margin: auto;
                 padding-right: 10px;
                 font-size: 20px;
@@ -136,22 +135,25 @@
 
 
 
-        @media(max-width: 700px)
+        /* @media(max-width: 700px)
         {
             .cources
             {
-                border: 2px solid blue;
-                width: 200%;
-                height: 200vh;
-                background-color: yellow;
+                /* border: 2px solid blue; */
+                /* width: 200%;
+                height: 200vh; */
+                /* background-color: yellow; */
             }
-        }
+        } */
         .cources{
             /* border: 2px solid red; */
             text-align: center;
             padding-top: 30px;
             height: 100vh;
             width: 100%;
+        }
+        .cources, h1, p{
+            text-align: center;
         }
         .cources h1{
             font-size: 50px;
@@ -166,6 +168,7 @@
             
         }
         .row{
+            /* border: 2px solid red; */
             margin-top: 5%;
             display: flex;
             justify-content: space-between;
@@ -193,6 +196,16 @@
             background: rgb(218, 216, 216) ;
             
         }
+        @media(max-width: 700px){
+            .cources{
+                width: 200%;
+                height: 200vh;
+                text-align: center;
+            }
+            .row{
+                flex-direction: column;
+            }
+        }
 
 
 
@@ -203,16 +216,23 @@
         @media(max-width: 700px)
         {
          .campous{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 200%;
-            height: 100vh;
+            height: 350vh;
          } 
          .camp-row{
+            /* border: 2px solid blue; */
             display: inline-block  ;
-            border: 2px solid red;
-            display: inline-block;
+            flex-direction: column;
             /* height: 100vh; */
          }  
+         /* .camp-col img{
+            border: 2px solid red;
+            height: 500px;
+            width: 100%
+            margin: auto;
+            border-radius: 22px;
+         } */
         }
         .campous{
             /* border: 2px solid red; */
@@ -251,6 +271,13 @@
         
         
 
+        @media(max-width: 700px){
+            .footer{
+                border: 2px solid red;
+                width: 200%;
+                height: 200vh;
+            }
+        }
         .footer{
             background-color: rgb(187, 186, 186);
             color: black;
